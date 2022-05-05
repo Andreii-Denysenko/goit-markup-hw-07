@@ -21,19 +21,19 @@
   <body>
     <header class="header">
       <div class="section-nav container">
-        <a class="logo logo-top link" href="index.html"
-          ><span class="logo-web">Web</span>Studio</a
+        <a class="logo logo--dark link" href="index.html"
+          ><span class="logo--accent">Web</span>Studio</a
         >
         <nav class="header-nav accent-effect">
           <ul class="header-list list">
-            <li class="header-item">
-              <a href="index.html" class="link-header current link">Студия</a>
+            <li class="header-list__item">
+              <a href="index.html" class="header-list__link current link">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="portfolio.html" class="link-header link">Портфолио</a>
+            <li class="header-list__item">
+              <a href="portfolio.html" class="header-list__link link">Портфолио</a>
             </li>
-            <li class="header-item">
-              <a href="" class="link-header link">Контакты</a>
+            <li class="header-list__item">
+              <a href="" class="header-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -64,8 +64,8 @@
       <!--Section 1 hero-->
       <section class="hero">
         <div class="hero-section container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button hero-bt" data-modal-open>Заказать услугу</button>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button hero__bt" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!---Section 2 Преимущества-->
@@ -393,37 +393,37 @@
       <!-- regular-clients -->
 
 
-      <section class="section-clients">
+      <section class="clients">
         <div class="conteiner">
-          <h2 class="section-clients__title">Постоянные клиенты</h2>
+          <h2 class="clients__title">Постоянные клиенты</h2>
           <div class="">
-            <ul class="clients">
-              <li class="item-clients">
+            <ul class="clients-list">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-1"></use>
                 </svg>
               </li>
-              <li class="item-clients">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-2"></use>
                 </svg>
               </li>
-              <li class="item-clients">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </li>
-              <li class="item-clients">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-4"></use>
                 </svg>
               </li>
-              <li class="item-clients">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-5"></use>
                 </svg>
               </li>
-              <li class="item-clients">
+              <li class="clients-list__item">
                 <svg class="icon-general" width="106" height="60">
                   <use href="./images/icons.svg#icon-Logo-6"></use>
                 </svg>
@@ -438,8 +438,8 @@
     <footer class="footer">
       <div class="container">
         <div class="section-footer">
-          <a class="logo logo-bot link" href="index.html"
-            ><span class="logo-web">Web</span>Studio</a
+          <a class="logo logo--light link" href="index.html"
+            ><span class="logo--accent">Web</span>Studio</a
           >
           <address>
             <p class="city-address">г. Киев, пр-т Леси Украинки, 26</p>
@@ -493,7 +493,7 @@
             </ul>
         </div>
 
-        <form class="section-subscription">
+        <form class="subscription">
           <h2 class="title-social">Подпишитесь на рассылку</h2>
         <div class="box-subscription">
         <input 
@@ -508,6 +508,7 @@
     </form>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close><svg class="icon-close-black" width="18px" height="18px"><use href="./images/icons.svg#icon-close-black"></use></svg></button>
