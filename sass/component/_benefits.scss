@@ -6,20 +6,21 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+  .benefits-list {
+    display: flex;
+  }
+
   .benefits__text {
     font-size: 14px;
     line-height: 1.71;
   }
   
-  .benefits-list {
-    display: flex;
-  }
+  
   .benefits-list__item {
     width: 270px;
-  }
-  .benefits-list__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .benefits__title {
@@ -33,7 +34,7 @@
   }
   
   
-  .section-benefits-icon {
+  .benefits-list__icon {
     background-color: #f5f4fa;
     margin-bottom: 30px;
     border-radius: 4px;

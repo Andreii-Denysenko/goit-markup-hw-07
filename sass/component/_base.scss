@@ -35,7 +35,7 @@ body {
     background-color: var(--accent-color);
   }
   
-.section {
+  .section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -54,20 +54,22 @@ body {
   .link {
     text-decoration: none;
   }
+
   .text {
     color: var(--secondary-text-color);
     letter-spacing: 0.03em;
   }
+  
   .current {
     color: var(--accent-color);
   }
 
-.accent-effect .link:hover,
-.accent-effect .link:focus {
+  .accent-effect .link:hover,
+  .accent-effect .link:focus {
   color: var(--accent-color);
 }
 
-.icon-general{
+  .icon-general{
   fill:currentColor;
   
 }

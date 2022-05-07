@@ -39,14 +39,12 @@
     display: flex;
     align-items: center;
   }
+  
   .icon-envelope {
     margin-right: 10px;
     fill: currentColor;
   }
-  .icon-envelope:hover,
-  .icon-envelope:focus {
-    fill: var(--accent-color);
-  }
+  
   .icon-smartphone {
     margin-right: 10px;
     fill: currentColor;

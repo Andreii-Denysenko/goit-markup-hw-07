@@ -29,6 +29,9 @@
   
   .aboutus-box{
     position: relative;
+    .aboutus-box__img {
+      display: block;
+    }
   }
   
   .aboutus-box__text{
@@ -44,9 +47,6 @@
     margin: 0px;
   }
   
-  .aboutus-box .aboutus-box__img {
-    display: block;
-  }
   
   .aboutus__text{
   font-weight: 700;

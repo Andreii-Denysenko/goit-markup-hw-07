@@ -2,12 +2,17 @@
     display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-left: 93px;
   }
-  .navigation-list__item:not(:last-child) {
-    margin-right: 50px;
+  .navigation-list{
+    display: flex;
   }
+ 
   .navigation-list__item{
     position: relative;
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
   .navigation-list__link {
     color: inherit;
@@ -20,9 +25,7 @@
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .navigation {
-    margin-left: 93px;
-  }
+
   .navigation-list__link.current::after{
     display: block;
     content: "";
@@ -34,6 +37,4 @@
     position: absolute;
     bottom: -33px;
   }
-  .navigation-list{
-    display: flex;
-  }
+  
